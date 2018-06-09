@@ -1,0 +1,1 @@
+# kilometresolidari-scripts
