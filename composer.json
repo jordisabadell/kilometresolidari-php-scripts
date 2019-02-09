@@ -2,6 +2,7 @@
    "name": "kilometresolidari/scripts",
    "require": {
       "google/apiclient": "2.0",
-      "abraham/twitteroauth": "^0.7.2"
+      "abraham/twitteroauth": "^0.7.2",
+	  "google/recaptcha": "^1.2"
    }
 }
