@@ -3,6 +3,7 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 use Abraham\TwitterOAuth\TwitterOAuth;
  
+#https://developer.twitter.com/en/apps
 define('CONSUMER_KEY', '');
 define('CONSUMER_SECRET', '');
 define('ACCESS_TOKEN', '');
@@ -11,12 +12,10 @@ define('ACCESS_TOKEN_SECRET', '');
 $conn = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET);
 
 $query = array(
- "q" => "#kmSolidari",
- "count" => 100, 
- "result_type" => "recent"
+ "q" => "#Sabadell" //#kmsolidari
 );
 $tweets = $conn->get('search/tweets', $query);
-
+echo "searching...";
 $data = array();
 foreach ($tweets->statuses as $tweet) {
 
