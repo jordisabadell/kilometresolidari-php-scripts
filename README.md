@@ -2,9 +2,11 @@
 http://www.kilometresolidari.cat
 
 ## Technologies
-- Xampp (https://www.apachefriends.org/)
 - Composer (https://getcomposer.org)
 - Twitter API (https://developer.twitter.com)
+
+## Environment
+- Xampp (https://www.apachefriends.org/)
 
 ## Environment setup
 - Run `composer install`
