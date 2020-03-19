@@ -11,12 +11,14 @@ Scripts of Kilòmetre Solidari web. Developed using Composer dependency manager.
 ## APIs
 - Twitter API (https://developer.twitter.com)
 
-## Enviropment
+## Environment
 - Composer (https://getcomposer.org)
 - Xampp (https://www.apachefriends.org/)
 
 ---
 
-## Composer setup
+## Environment 
+
+### Composer and PHP execute commands
 - Install dependencies `composer install`
 - Execute `PHP {name-script.php}`
