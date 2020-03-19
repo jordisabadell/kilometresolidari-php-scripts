@@ -1,13 +1,22 @@
-# Kilometre Solidari Project
+# Kilòmetre Solidari (PHP scripts)
+
+**A scripts of Kilòmetre Solidari Project** :rocket:  
 http://www.kilometresolidari.cat
 
-## Technologies
-- Composer (https://getcomposer.org)
+Scripts of Kilòmetre Solidari web. Developed using Composer dependency manager.
+
+## Tecnology
+- PHP 
+
+## APIs
 - Twitter API (https://developer.twitter.com)
 
-## Environment
+## Enviropment
+- Composer (https://getcomposer.org)
 - Xampp (https://www.apachefriends.org/)
 
-## Environment setup
-- Run `composer install`
-- PHP {name-script.php}
+---
+
+## Composer setup
+- Install dependencies `composer install`
+- Execute `PHP {name-script.php}`
