@@ -1,6 +1,6 @@
 # Kilòmetre Solidari (PHP scripts)
 
-**A scripts of Kilòmetre Solidari Project** :rocket:  
+**Scripts of Kilòmetre Solidari Project** :rocket:  
 http://www.kilometresolidari.cat
 
 Scripts of Kilòmetre Solidari web. Developed using Composer dependency manager.
