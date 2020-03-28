@@ -3,7 +3,7 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 use Abraham\TwitterOAuth\TwitterOAuth;
  
-#https://developer.twitter.com/en/apps
+//https://developer.twitter.com/en/apps
 define('CONSUMER_KEY', '');
 define('CONSUMER_SECRET', '');
 define('ACCESS_TOKEN', '');
@@ -30,7 +30,7 @@ foreach ($tweets->statuses as $tweet) {
 
 $json = json_encode($data);
 
-$file = fopen("../../data/tweets.json", "w");
+$file = fopen("../data/tweets.json", "w");
 fwrite($file, $json);
 echo "done";
 ?>
