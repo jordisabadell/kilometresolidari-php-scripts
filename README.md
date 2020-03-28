@@ -24,6 +24,13 @@ ${ACCESS_TOKEN}
 ${ACCESS_TOKEN_SECRET}
 ```
 
+To solve CORS domain problem add .htaccess file to /data directory.
+```
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
+```
+
 ## Tecnology
 - PHP 
 
