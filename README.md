@@ -8,14 +8,21 @@ Scripts of Kilòmetre Solidari web. Developed using Composer dependency manager.
 ## Available scripts 
 
 ### reCaptcha validation
-Backend of recpatcha validation v3 used at www.kilometresolidari.cat web. It requires configuration of the following environment variables.
+Backend of recpatcha validation v3 used at www.kilometresolidari.cat web. It requires configuration of the following environment variables (validate-token.php file).
 
 ```
-**${APIKERECATCHA_SECRET}** on validate-token.php file
+**${APIKERECATCHA_SECRET}**
 ```
 
 ### Twitter feed
+Job to read a specific twitter hashtag. It requires configuration of the following environment variables (tf-script.php file).
 
+```
+${CONSUMER_KEY}
+${CONSUMER_SECRET}
+${ACCESS_TOKEN}
+${ACCESS_TOKEN_SECRET}
+```
 
 ## Tecnology
 - PHP 
@@ -28,8 +35,16 @@ Backend of recpatcha validation v3 used at www.kilometresolidari.cat web. It req
 
 ---
 
-## Environment 
+## Local configuration
 
 ### Composer and PHP execute commands
-- Install dependencies `composer install`
-- Execute `PHP {name-script.php}`
+
+Install dependencies.
+```
+composer install
+```
+
+Execute PHP script.
+````
+php {name-script.php}
+```
