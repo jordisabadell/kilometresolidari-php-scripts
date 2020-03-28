@@ -6,8 +6,6 @@ header('content-type: application/json; charset=utf-8');
 
 $token = filter_input(INPUT_POST, 'token', FILTER_SANITIZE_STRING);
 
-$token = filter_input(INPUT_POST, 'token', FILTER_SANITIZE_STRING);
-
 if(!$token){
   echo 'Error: token is empty.';
   exit;

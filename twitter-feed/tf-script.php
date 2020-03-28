@@ -4,10 +4,10 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use Abraham\TwitterOAuth\TwitterOAuth;
  
 //https://developer.twitter.com/en/apps
-define('CONSUMER_KEY', '');
-define('CONSUMER_SECRET', '');
-define('ACCESS_TOKEN', '');
-define('ACCESS_TOKEN_SECRET', '');
+define('CONSUMER_KEY', '${CONSUMER_KEY}');
+define('CONSUMER_SECRET', '${CONSUMER_SECRET}');
+define('ACCESS_TOKEN', '${ACCESS_TOKEN}');
+define('ACCESS_TOKEN_SECRET', '${ACCESS_TOKEN_SECRET}');
 
 $conn = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET);
 
