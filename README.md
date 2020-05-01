@@ -52,6 +52,6 @@ composer install
 ```
 
 Execute PHP script.
-````
+```
 php {name-script.php}
 ```
